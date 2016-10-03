@@ -1,0 +1,95 @@
+.app-android .app-list>li {
+  padding: 0 0 0 0;
+  height: auto;
+  line-height: 25px;
+  margin-bottom: 15px;
+  background-color: #f4fcfb;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.result-image {
+  width: 100%;
+  float: left;
+}
+
+.result-content {
+  width: 100%;
+  float: left;
+  padding: 15px;
+  height: auto;
+  text-overflow: ellipsis;
+}
+
+.result-content .article-title {
+  
+  text-decoration: none;
+  color:#798287;
+  text-overflow : ellipsis;
+  
+  
+  width         : 98%;
+  white-space: initial;
+}
+
+.article-description {
+  text-overflow : ellipsis;
+  white-space   : nowrap;
+  width         : 93%;
+  overflow      : hidden; 
+}
+
+.article-url {
+  text-decoration:none;
+  color: #42f4dc;
+}
+
+/*.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+
+
+.app-page .placeholder.active {
+  display: block;
+}
+
+.app-page .placeholder {
+  margin: 0;
+  width: 100%;
+  height: 100px;
+  color: #999;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -55px;
+}
+.app-page .placeholder span:before {
+  display: block;
+  margin: 0 auto 16px;
+  height: 65px;
+  width: 65px;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "\f108";
+  font-family: FontAwesome;
+  font-size: 50px;
+}
+
+.article-title {
+  font-size: 16px; 
+  font-weight: bold;
+}
